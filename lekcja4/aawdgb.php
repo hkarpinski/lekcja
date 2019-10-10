@@ -122,4 +122,4 @@ FORM;
       echo "Dane bez poprawy: $data<br>";
       echo "Dane po poprawie: $correct<br>";
     }
-kenon chuj
+
