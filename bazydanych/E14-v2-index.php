@@ -24,11 +24,16 @@ echo "</ul>";
 ?>
       <form method="post">
         <select name="towar">
-          <option value="Pisaki 6 szt.">Gumka do mazania</option>
-          <option value="Cienkopis">Cienkopisy</option>
-          <option value="Gumka do mazania">Pisaki 60 szt.</option>
-          <option value="Markery 4 szt.">Markery 4 szt.</option>
-          <option value="Snickers">Snickers</option>
+      <?php
+        $sql = "SELECT nazwa FROM `towary`";
+
+      $result = mysqli_query($connect, $sql);
+      while ($row =mysqli_fetch_assoc($result)) {
+    echo "<option value=\"$row[nazwa]\">$row[nazwa]</option>";
+      }
+
+?>
+
         </select>
         <input type="submit" name="buttom" value="WYBIERZ">
       </form>
