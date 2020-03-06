@@ -1,0 +1,17 @@
+Napisz w pliku Person.php klase person ze składnowymi imie,nazwisko,data urodzenia,miejscowosc
+
+Utwórz metody pozwalajace na przypisanie składniowych
+Utwórz metode pozwalajaca przypisac wszystkim składniowym wartosci
+
+Napisz metode wyswietlająca wszystkie własciwosci z klasy Person w formacie
+Imie i nazwisko:... ....
+Data urodzenia:......
+miejscowosc:......
+
+
+###################   KONSTRUKTOR   #############################
+Utwórz klase o nazwie Animal w pliku Animal.php
+w klasie dodaj kontruktor, który przypisze wartosc początkową do ilosci nóg(4)
+w konstruktorze nalezy przypisac jeszcze (wpisuje uzytkownik podczas tworzenia obiektu)
+gatunek, kraj pochodzenia , waga,wzrost
+Utwórz dwa obiekty i przypisz im wartosci początkowe i wyswietl za pomocą metody getAll
